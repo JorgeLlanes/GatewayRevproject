@@ -1,0 +1,166 @@
+*{
+  margin: 1;
+  padding: 1;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+body{
+ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/contact.jpg");
+
+}
+
+h1 {
+  color: #c25700;
+  font-size: 60px;
+  padding-left: 20px;
+  margin-bottom: 3%;
+  
+}
+
+
+h3 {
+  background: #ffffff;
+  color: #c25700;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+li{
+  margin-top: 5px;
+  background: #fff;
+  text-align: center;
+  font-size: 40px;
+  color: #c25700;
+  font-weight: 900;
+  margin-bottom: 15px;
+  
+  
+}
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 20px;
+  
+}
+
+.nav-area li{
+  display: inline-block;
+  
+}
+
+.nav-area li a{
+  color: #000000;
+  text-decoration: none;
+  padding: 20px 20px;
+  font-size: 20px;
+  margin: 
+  
+}
+
+.nav-area li a:hover{
+  background: #c25700;
+  color: #333;
+  font-size: 50%;
+  
+}
+
+
+
+
+
+.footer {
+  background-color: #fff;
+  width: 100%;
+  color: black;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  font-weight: bold;
+}
+  
+h2 {
+  
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color:  white;
+}
+
+
+.footer p {
+font-size: 20px;  
+margin-top: 3%;
+margin-bottom: 1%;
+  
+}
+
+.comment-box{
+padding-left: 430px;
+top: 50%;
+left: 50%;
+width: 500px;
+}
+
+.comment-box h2 {
+
+color: #ff9924;
+font-weight: bold;
+font-size: 40px;
+margin-bottom: 15px;
+
+
+  
+}
+
+.comment-box input {
+  width: 100%;
+  heigth: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.comment-box input:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+
+.comment-box textarea {
+width: 100%;
+height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+
+  
+}
+
+.comment-box textarea:focus {
+  border: 1px solid black;
+  outline: 0;
+  }
+
+.comment-box button {
+  border: 0;
+  padding: 10px 30px;
+  background: orange;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  
+}
+
+.comment-box button:hover {
+  background-color: blue;
+  
+}

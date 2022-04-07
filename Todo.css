@@ -1,0 +1,103 @@
+*{
+  margin: 1;
+  padding: 1;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+body{
+ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/city.webp");
+
+}
+
+h1{
+  text-align: left;
+  padding-left: 30px ;
+  margin: 1px;
+  color: #fff;
+  font-size: 70px;
+  
+}
+
+.Todo h3{
+
+ text-align: center;
+ font-size: 40px;
+ color: black;
+
+}
+.Todo li {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin: 15px;
+  
+  
+}
+
+.Todo p{
+  font-size: 20px;
+  background: #5c5c5c;
+  color: #fff;
+  
+}
+
+.Todo img{
+  width: 500px;
+  padding-left: 30%;
+}
+
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 20px;
+  
+}
+
+.nav-area li{
+  display: inline-block;
+  
+}
+
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  
+}
+
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+
+h2 {
+ 
+ color: white;
+ text-align: center;
+ font
+}
+
+.footer {
+  background-color: #FFF;
+  width: 100%;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  font-weight: bold;
+}
+
+.footer p{
+  Background-color: #fff;
+  color: black;
+  
+  
+}
