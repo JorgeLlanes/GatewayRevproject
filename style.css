@@ -4,21 +4,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.wrapper{
-  width: 1250px;
-  margin: auto;
-  
-}
 
-body{
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/ATX.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-  
-}
 
 
 .nav-area{
@@ -34,7 +20,7 @@ body{
 }
 
 .nav-area li a{
-  color: #fff;
+  color: rgb(17, 16, 16);
   text-decoration: none;
   padding: 5px 20px;
   font-size: 14px;
@@ -42,123 +28,30 @@ body{
 }
 
 .nav-area li a:hover{
-  background: #fff;
-  color: #333;
-  
-  
-  }
-
-
-
-.logo img{
-  width: 150px;
-  float: left;
-  padding-left: 0%;
-  padding-top: 2%;
-  filter: invert(1)
+  background: rgb(221, 15, 15);
+  color: rgb(28, 25, 25);
   
 }
 
-.projectJJ{
-  position: absolute;
-  
-  margin: 17% 33%;
-  
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
-
-  h1{
-  position: relative;
-  bottom: 0px;
-  right: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 80px;
-  font-weight: bold;
-  display: flex;
-  width: 125%;
-  line-height: 90%;
-  padding-top: 1%;
-  }
-
-  h3 {
-  position: relative;
-  bottom: 0px;
-  right: 45px;
-  font-size: 200%;
-  padding-top: 8%;
-  }
-  
-  
-  
-  
-
-  .projectJJ a{
-  border:3px solid white;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-transformer: uppercase;
-  font-size: 14px;
-  margin-top: 20px;
-  display: inline-block;
-  background-color: #ff8157;
-  border-radius: 10px;
-  font-weight: 900;
-  color: #fff;
-  position: relative;
-  bottom: 0px;
-  right: 30px;
-  
- 
-  
-  
-  
-  
-  
-  
-  
-}
-
-.projectJJ a:hover{
-  background: #525dff;
-  color: #ffffff;
-  
-  
-}
-
-.projectJJ p{
-  color: #fff;
-  padding: 10px 10px;
-  line-height: 30px;
-  margin-top: 20px;
-  font-size: 20px;
-  position: relative;
-  bottom: 0px;
-  right: 35px;
-  
-  
-  
-  
-}
-
-.footer{
+.foot {
   background-color: #FFF;
   width: 100%;
   color: black;
   text-align: center;
-  position: absolute;
+  position: absolute; 
   bottom: 0;
+  font-weight: bold;
+}
+
+.aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  color: white;
+  margin-top: 300px;
+  padding-left: 120%;
   font-weight: bold;
 }
 
