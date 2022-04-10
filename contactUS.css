@@ -176,3 +176,33 @@ height: 150px;
   background-color: blue;
   
 }
+
+.figure img{
+  position: relative;
+  left: 510px;
+  width: auto;
+  height: 200px;
+}
+
+
+.aside{
+background-color: #c25700;
+margin-right: 1210px;
+position: relative;
+left: 10px;
+bottom: 300px;
+text-align: left;
+color: #dff3ff;
+
+}
+
+.figure figcaption{
+  font-size: 20px;
+  color:#fff;
+  position: relative;
+  left: 510px;
+
+
+
+}
+  

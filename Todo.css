@@ -10,26 +10,35 @@
 
 
 body{
- background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/city.webp");
+ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/city.webp");
 
 }
 
 .ToDo h1{
   text-align: left;
-  padding-left: 30px ;
+  padding-left: 20px ;
   margin: 1px;
   color: #fff;
   font-size: 70px;
   
 }
-
-.Todo h2{
-
- text-align: center;
- font-size: 40px;
- color: black;
+.Visiting {
+margin-left: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+font-size: 25px;
 
 }
+
+.Visiting h3{
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+
 .list li {
   font-size: 50px;
   font-weight: bold;
@@ -55,7 +64,7 @@ body{
 .nav-area{
   float: right;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 1px;
   padding-right: 20px;
   
 }
@@ -85,12 +94,14 @@ body{
   background-color: #FFF;
   width: 100%;
   text-align: center;
-  position: static;
+  position: relative;
   bottom: 0;
   font-weight: bold;
+  
 }
 
 .footer p{
+  
   Background-color: #fff;
   color: black;
   
@@ -102,15 +113,39 @@ body{
   height: 300px;
 }
 
-.fig {
-
+.figure figcaption{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 144);
 
 }
 
 
 .aside{ 
-  
-  
+background-color: #14623e;
+margin-right: 1210px;
+position: relative;
+left: 1100px;
+bottom: 300px;
+text-align: left;
+color: #dff3ff;
+
+}
+
+.aside h3{
+color: yellow;
+font-style: italic;
+
+}
+
+.aside label{
+  color: #fff;
+}
 
 
+.by h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+  
 }
