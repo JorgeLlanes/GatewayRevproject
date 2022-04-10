@@ -32,22 +32,29 @@ body{
 
 .list li{
   margin-top: 5px;
-  background: #fff;
+  background-color: #fff;
   text-align: center;
   font-size: 40px;
   color: #c25700;
   font-weight: 900;
   margin-bottom: 15px;
+  margin-left: 360px;
+  margin-right: 360px;
+  margin-top: 20px;
+  
   
   
   
 }
 
 h2{
-
-  color: #dff3ff;
+  
+  color: rgb(255, 255, 255);
   font-size: 50px;
   text-align: center;
+  margin-top: 10px;
+  
+  
 
 }
 
@@ -68,7 +75,7 @@ h2{
 }
 
 .nav-area li a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   padding: 20px 20px;
   font-size: 20px;
@@ -77,8 +84,8 @@ h2{
 }
 
 .nav-area li a:hover{
-  background: #c25700;
-  color: #333;
+  background-color: #c25700;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   
 }
@@ -123,7 +130,7 @@ position: relative;
 
 .comment-box h2 {
 
-color: #001d7c;
+color: #c25700;
 font-weight: bold;
 font-size: 40px;
 margin-bottom: 15px;
@@ -198,9 +205,11 @@ color: #dff3ff;
 
 .figure figcaption{
   font-size: 20px;
-  color:#fff;
+  color:rgb(255, 255, 255);
   position: relative;
   left: 510px;
+  text-decoration: underline;
+  text-decoration-color: #c25700;
 
 
 
