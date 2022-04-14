@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -13,8 +13,8 @@ hr {
 
 
 
-body{
- background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/contact.jpg");
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/contact.jpg");
 
 }
 
@@ -24,13 +24,13 @@ body{
   padding-left: 20px;
   margin-bottom: 10px;
   margin-top: 20px;
-  
+
 }
 
 
 
 
-.list li{
+.list li {
   margin-top: 5px;
   background-color: #fff;
   text-align: center;
@@ -41,53 +41,53 @@ body{
   margin-left: 360px;
   margin-right: 360px;
   margin-top: 20px;
-  
-  
-  
-  
+  border-radius: 5px;
+
+
+
 }
 
-h2{
-  
+h2 {
+
   color: rgb(255, 255, 255);
   font-size: 50px;
   text-align: center;
   margin-top: 10px;
-  
-  
+
+
 
 }
 
-.nav-area{
+.nav-area {
   position: relative;
   float: right;
   list-style: none;
   top: 0px;
   width: 100%;
   margin: 20px;
-  
+
 }
 
-.nav-area li{
+.nav-area li {
   display: inline-block;
   float: right;
-  
+
 }
 
-.nav-area li a{
+.nav-area li a {
   color: #ffffff;
   text-decoration: none;
   padding: 20px 20px;
   font-size: 20px;
-  
-  
+
+
 }
 
-.nav-area li a:hover{
+.nav-area li a:hover {
   background-color: #c25700;
   color: rgb(255, 255, 255);
   font-size: 20px;
-  
+  border-radius: 5px;
 }
 
 
@@ -103,40 +103,40 @@ h2{
   bottom: 0;
   font-weight: bold;
 }
-  
+
 .Question h2 {
-  
+
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  color:  white;
+  color: white;
 }
 
 
 .footer p {
-font-size: 20px;  
-margin-top: 3%;
-margin-bottom: 1%;
-  
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+
 }
 
-.comment-box{
+.comment-box {
 
-top: 50%;
-left: 30%;
-width: 500px;
-position: relative;
+  top: 50%;
+  left: 30%;
+  width: 500px;
+  position: relative;
 }
 
 .comment-box h2 {
 
-color: #c25700;
-font-weight: bold;
-font-size: 40px;
-margin-bottom: 15px;
+  color: #c25700;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
 
 
-  
+
 }
 
 .comment-box input {
@@ -154,20 +154,20 @@ margin-bottom: 15px;
 }
 
 .comment-box textarea {
-width: 100%;
-height: 150px;
+  width: 100%;
+  height: 150px;
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid white;
 
-  
+
 }
 
 .comment-box textarea:focus {
   border: 1px solid black;
   outline: 0;
-  }
+}
 
 .comment-box button {
   border: 0;
@@ -176,36 +176,40 @@ height: 150px;
   font-size: 18px;
   border-radius: 5px;
   color: #fff;
-  
+
 }
 
 .comment-box button:hover {
   background-color: blue;
-  
+
 }
 
-.figure img{
+.figure img {
   position: relative;
   left: 510px;
   width: auto;
   height: 200px;
+  border-radius: 5px;
 }
 
 
-.aside{
-background-color: #c25700;
-margin-right: 1210px;
-position: relative;
-left: 10px;
-bottom: 300px;
-text-align: left;
-color: #dff3ff;
+.aside {
+  background-color: #c25700;
+  margin-right: 1210px;
+  position: relative;
+  left: 10px;
+  bottom: 300px;
+  text-align: left;
+  color: #dff3ff;
+  border-radius: 5px;
+
+
 
 }
 
-.figure figcaption{
+.figure figcaption {
   font-size: 20px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   position: relative;
   left: 510px;
   text-decoration: underline;
@@ -214,4 +218,3 @@ color: #dff3ff;
 
 
 }
-  
